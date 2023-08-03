@@ -1,0 +1,135 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.header_links {
+    display: flex;
+    gap: 16px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+/* Main content */
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 100px 100px;
+}
+
+.main-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+/* Second content */
+.second-content {
+    background-color: white;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.second-text {
+    font-size: 36px;
+    font-weight: bolder;
+    /* margin-bottom: 60px; */
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200;
+}
+
+/* third content */
+.third-content {
+    background-color: #e5e7eb;
+    color:#1f2937;
+    padding: 100px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* fourth content */
+.fourth-content {
+    background-color: white;
+    color:#1f2937;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-box {
+    background-color: #3882f6;
+    padding: 50px 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.signup-fourth {
+    border: 2px white;
+    padding: 14px 28px;
+}
